@@ -1,0 +1,38 @@
+.vertical-lines-container1 {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    text-align: center;
+  }
+
+.vertical-lines-container2 {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    text-align: center;
+  }
+
+.vertical-lines-container3 {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    text-align: center;
+  }
+
+.vertical-line {
+    width: 0.5px;
+    background: #507863;
+    position: relative;
+  }
+  
+  .vertical-line::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #507863;
+  }

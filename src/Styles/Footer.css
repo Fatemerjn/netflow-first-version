@@ -1,0 +1,50 @@
+.footer {
+    background-color: #3C3D41;
+    height: 200px;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.column {
+    text-align: justify;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.column a {
+    color: #DDE3DF;
+    text-decoration: none;
+    size: 20px;
+}
+
+.logo {
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 40px;
+    font-size: 50px;
+    color: #DDE3DF;
+}
+
+.column h4 {
+    padding-left: 40px;
+}
+.footnav {
+    background-color: #333333;
+    margin: 0;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: #DDE3DF;
+}
+
+.social-icons {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
